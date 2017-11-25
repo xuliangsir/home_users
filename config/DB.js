@@ -1,0 +1,1 @@
+/** * Created by liangxu on 2017/11/10. */var pg = require('pg');// 数据库配置module.exports.config = {    user:"username",    database:"home",    password:"username",    port:5432,    host: "localhost",    // 扩展属性    max:20, // 连接池最大连接数    idleTimeoutMillis:3000, // 连接最大空闲时间 3s    dialect:"pg"};
