@@ -1,0 +1,1 @@
+// 生成私密下载urlvar expired = parseInt(Date.now() / 1000) + 60;var sign = tencentyun.auth.getAppSignV2(bucket, fileid, expired);console.log('downloadUrl is : ' + ret.data.downloadUrl + '?sign=' + sign);// 生成新的上传签名var expired = parseInt(Date.now() / 1000) + 60;var sign = tencentyun.auth.getAppSignV2(bucket, fileid, expired);console.log('sign is :'+sign);

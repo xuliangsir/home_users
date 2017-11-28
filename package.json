@@ -29,6 +29,7 @@
     "qiniu": "^7.1.1",
     "request": "^2.83.0",
     "require-dir": "^0.3.2",
+    "tencentyun": "^2.0.4",
     "urlsafe-base64": "^1.0.0"
   },
   "devDependencies": {
