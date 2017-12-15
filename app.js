@@ -12,7 +12,7 @@ const users = require('./routes/users');
 const apiRouters = require('./routes/api');
 const rest = require('./util/rest');
 
-process.env.NODE_ENV = "development";
+process.env.NODE_ENV = "test";
 console.log("NODE_ENV:", process.env.NODE_ENV);
 
 // error handler

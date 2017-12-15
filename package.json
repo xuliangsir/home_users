@@ -9,6 +9,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
+    "alipay-ftof": "^0.1.5",
+    "alipay-mobile": "^2.1.1",
     "debug": "^2.6.3",
     "knex": "^0.14.1",
     "koa": "^2.2.0",

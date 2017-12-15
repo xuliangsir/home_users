@@ -1,0 +1,1 @@
+/** * Created by liangxu on 2017/12/12. */module.exports = {    "appid": 2017120500382590,    "notifyUrl": "",}
